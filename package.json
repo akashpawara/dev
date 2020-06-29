@@ -2,15 +2,16 @@
   "name": "dev",
   "version": "1.0.0",
   "description": "first react app",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app",
-    "app": "nodemon app"
+    "start": "node server",
+    "server": "nodemon server"
   },
   "author": "Akash Pawara",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",
     "config": "^3.3.1",
     "express": "^4.17.1",
